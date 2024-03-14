@@ -14,3 +14,5 @@ print(python.find("Java")) # 맨 처음 나온 인덱스를 기준으로 출력,
 # print(python.index("Java")) # 없으면 오류가 난다.
 
 print(python.count("n")) # 해당 문자가 나온 회수
+
+# 소문자, 대문자, 대문자인지 소문자인지 확인, 길이, 인덱스 출력, find함수, count

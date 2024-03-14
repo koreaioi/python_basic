@@ -24,6 +24,6 @@ array2 = np.arange(8).reshape(2,4)
 print(array1)
 print(array2)
 #array1과 array2 세로축으로 합치기
-array3 = np.concatenate([array1, array2], axis=0) #axis = 0 이 세로축으로 합치라는 뜻
+array3 = np.concatenate([array1, array2], axis=0) #axis = 0 = 행을 기준으로 합쳐라
 print(array3)
 #axis = 0 행, axis = 1 열
